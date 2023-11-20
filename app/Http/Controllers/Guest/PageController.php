@@ -9,11 +9,18 @@ use App\Models\Movie;
 class PageController extends Controller
 {
     public function index(){
-
         $movies = Movie::all();
-       
-        return view('home');
+        // dd($movies);
 
+        return view('home', compact('movies'));
     }
+
+    public function movieDetail($id){
+
+        $movie = Movie::find($id);
+        // dd($movie);
+        return view('movieDetail', compact('movie'));
+    }
+
 
 }
