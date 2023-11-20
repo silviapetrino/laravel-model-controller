@@ -1,0 +1,20 @@
+
+
+body {
+    background-image: url('../../public/assortment-cinema-elements-red-background-with-copy-space_23-2148457848.avif');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.main.container {
+    background-color: rgba($color: #141313, $alpha: 0.2);
+
+    h1 {
+        color: white;
+        font-weight: 700;
+    }
+    h5, span {
+        font-weight: 600;
+    }
+}
