@@ -9,9 +9,10 @@
     <title>Movies</title>
 </head>
 <body>
+  
 
+    <div class="container d-flex flex-wrap py-5">
 
-    <div class="container d-flex py-5">
         @yield('content')
 
     </div>
