@@ -1,12 +1,11 @@
 @extends('layouts.main')
 
 
-
-
 @section('content')
-<div class="container mt-5">
-    <h1>Your Movies</h1>
-</div>
+
+    <div class="container mt-5">
+        <h1>Your Movies</h1>
+    </div>
 
     @foreach ($movies as $movie )
         <div class="card m-2" style="width: 18rem;">
@@ -17,6 +16,5 @@
                 </div>
             </div>
      @endforeach
-
 
 @endsection
